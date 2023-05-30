@@ -4,7 +4,7 @@ var cutie = "Cutie";
 
 //console.log("Before Swap..", "num1",num1,"num2:",num2);
 var temp = sweety;
-sweety = cute;
+sweety = cutie;
 cutie = temp;
 console.log("After Swap..","\nsweety:",sweety,"\ncutie:",cutie);
 console.log();
