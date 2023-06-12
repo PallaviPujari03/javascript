@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise time</title>
+    </head>
+    <body>
+        <div id="overview">
+            <h1>HTML & Java Script are crucial</h1>
+            <p>The web do not work without them....</p>
+        </div>
+        <div id="advantage">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+        <script>
+            const mainHeading = document.querySelector('h1');
+            console.log(mainHeading);
+
+            const secondAdvantage = document.querySelectorAll('li');
+            console.log(secondAdvantage[1].innerHTML);
+
+            const advantage = document.querySelector('#advantage');
+            console.log(advantage.innerHTML);
+        </script>
+    </body>
+   
+</html>
